@@ -13,6 +13,14 @@ body
 	margin-right: auto;
 }
 
+/*#youtube_video{*/
+/*	visibility: visible*/
+/*}*/
+
+#youtube_video{
+	visibility: hidden;
+}
+
 .rectangle
 {
 	width: 960px;

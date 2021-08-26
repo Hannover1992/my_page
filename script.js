@@ -19,14 +19,33 @@ function odliczanie()
 
 function wer_bin_ich() {
 	var elem = document.getElementById("head_text");
-	elem.innerHTML = "Ich bin ein technische Informatiker.Jemand der sowohl Informatik als auch Elektrotechnik in Bezug auf Rechnergestützte Anwendung studiert hat.Dank meinem Studium habe ich ein sehr tiefes und grundlegendes Verständnis für die aufbaut und Funktionsweise eines Computers.\n" }
+	elem.innerHTML = "Ich bin ein technische Informatiker.Jemand der sowohl Informatik als auch Elektrotechnik in Bezug auf Rechnergestützte Anwendung studiert hat.Dank meinem Studium habe ich ein sehr tiefes und grundlegendes Verständnis für die aufbaut und Funktionsweise eines Computers.\n"
+	var elem = document.getElementById("youtube_video")
+	elem.style.visibility="hidden";
+	}
 
 function was_kann_ich() {
 	var elem = document.getElementById("head_text");
-	elem.innerHTML = " Ich kann sowohl in das Maschinennahe C/C++ als auch in Objekt Orientiertes Java programmieren. Wenn sie eine Datenbank benötigen, kann ich es von Relationales Algebra bis hin zu deklarative  SQL aufbauen, erweitern oder \npflegen. Des Weiteren kenne ich mich mit HTML/CSS und PHP, somit kann ich für ihnen eine einfache Werbung bis hin zu  einem Online-Shop entwerfen." }
+	elem.innerHTML = " Ich kann sowohl in das Maschinennahe C/C++ als auch in Objekt Orientiertes Java programmieren. Wenn sie eine Datenbank benötigen, kann ich es von Relationales Algebra bis hin zu deklarative  SQL aufbauen, erweitern oder \npflegen. Des Weiteren kenne ich mich mit HTML/CSS und PHP, somit kann ich für ihnen eine einfache Werbung bis hin zu einem Online-Shop entwerfen. Unten kleine Video von letzten Projekt."
+	var elem = document.getElementById("youtube_video")
+	elem.style.visibility="visible";
+	}
+
+
+function resume() {
+	var elem = document.getElementById("head_text");
+	elem.innerHTML = "Edukation:\n2013-2017 Zweiter Bildungsweg an Hannover Kolleg (Abitur)\n2017-Heute Student am Leibniz Universität Hannover technische Informatik\nSelbständig:\n2017/18 PC/Handy Reparatur Service\n2019 Vermittlung von polnischen Pflegekräften \n2020 Studienkreis Nachhilfelehrer für Mathematik und Informatik \nArbeitnehmer:\n2021-Heute Tier Wartung von E-Scooter und E-Mopeds \n2021-Heute Barbarossa Erwachsenenbildung Microsoft-Excel/Outlook Kurse"
+	document.body.style.fontsize = "8px";
+	var elem = document.getElementById("youtube_video")
+	elem.style.visibility="hidden";
+}
+
+
+
 
 function contackt() {
 	var elem = document.getElementById("head_text");
-	elem.innerHTML = "Ich bin erreichbar unter der telephone nummer: <br> 017641613749 <br> oder e-mail Adresse:<br>Hannover1992@googlemail.com" +
-		"" +
-		"" }
+	elem.innerHTML = "Ich bin erreichbar unter der telephone nummer: <br> 017641613749 <br> oder e-mail Adresse:<br>Hannover1992@googlemail.com";
+	var elem = document.getElementById("youtube_video")
+	elem.style.visibility="hidden";
+	}
