@@ -13,20 +13,15 @@
 	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato|Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	
-	<script src="timer.js"></script>
+	<script src="script.js"></script>
 	<script>
-	function changeTextHeadText() {
-	  var elem = document.getElementById("head_text");
-	  elem.innerHTML = "new_html"
-	}
   </script>
 
 		
 </head>
 
-<!--<body onload="odliczanie();"> !-->
-<body onload="changeTextHeadText();">
-	
+<body onload="odliczanie();">
+
 	<div id="container">
 	
 		<div class="rectangle">
@@ -37,9 +32,8 @@
 		
 		<div class="square">
 			<div class="tile1">
-				<a href="javascript:changeTextHeadText();" class="tilelink"><i class="icon-user"></i><br />Wer bin ich?</a>
+				<a href="javascript:wer_bin_ich();" class="tilelink"><i class="icon-user"></i><br />Wer bin ich?</a>
 			</div>
-<button onclick="changeTextHeadText()">Click me</button>
 			<a href="./oferta.html" class="tilelinkhtml5">
 				<div class="tile1">
 					<i class="icon-laptop"></i><br />Was kann ich?

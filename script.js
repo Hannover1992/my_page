@@ -15,3 +15,9 @@ function odliczanie()
 		 
 		 setTimeout("odliczanie()",1000);
 	}
+
+
+function wer_bin_ich() {
+	var elem = document.getElementById("head_text");
+	elem.innerHTML = "3new_html"
+}
