@@ -19,7 +19,15 @@ body
 
 #youtube_video{
 	visibility: hidden;
+	width: 1000px;
+	height: 0px;
+}
 
+#cv{
+
+	visibility: hidden;
+	width: 1000px;
+	height: 0px;
 }
 
 .rectangle
