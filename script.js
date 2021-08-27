@@ -34,8 +34,9 @@ function was_kann_ich() {
 
 function resume() {
 	var elem = document.getElementById("head_text");
-	elem.innerHTML = "Edukation:\n2013-2017 Zweiter Bildungsweg an Hannover Kolleg (Abitur)\n2017-Heute Student am Leibniz Universität Hannover technische Informatik\nSelbständig:\n2017/18 PC/Handy Reparatur Service\n2019 Vermittlung von polnischen Pflegekräften \n2020 Studienkreis Nachhilfelehrer für Mathematik und Informatik \nArbeitnehmer:\n2021-Heute Tier Wartung von E-Scooter und E-Mopeds \n2021-Heute Barbarossa Erwachsenenbildung Microsoft-Excel/Outlook Kurse"
-	document.body.style.fontsize = "8px";
+	elem.innerHTML = "Edukation:<br>2013-2017: Hannover Kolleg <br>2017-Heute: Student am Leibniz Universität Hannover              technische Informatik<br><br>Selbständig:<br>2017/18: PC/Handy Reparatur Service<br>2019: Vermittlung von polnischen Pflegekräften<br><br>Arbeitnehmer:<br>2020: Studienkreis Nachhilfelehrer für Mathematik und Informatik<br>2021-Heute: Tier Wartung von E-Scooter und E-Mopeds<br>2021-Heute: Barbarossa Erwachsenenbildung Microsoft-Excel/Outlook Kurse"
+
+	elem.style.fontSize = "15px"
 	var elem = document.getElementById("youtube_video")
 	elem.style.visibility="hidden";
 }
